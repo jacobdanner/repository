@@ -44,6 +44,21 @@ def find_substring(tiny,large):
 ################ main program ##################################
 tiny_string = "fs"
 large_string = "abcdefghijklmnopqrstuvwxyz"
+## see comments for further thoughts but what about
+# doesn't exist
+tiny_string="a"
+large_string="bcde"
+
+# exists a bunch
+tiny_string="a"
+large_string="aaaaaa"
+
+
+# size < 4
+tiny_string="a"
+large_string="aaa"
+
+
 print("Len of Large (",large_string,"):",len(large_string))
 print("Len of Tiny  (",tiny_string,"):",len(tiny_string))
 print("------------------------------------------")
